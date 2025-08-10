@@ -1,0 +1,25 @@
+{
+	"name": "types-of-step-function",
+	"version": "0.1.0",
+	"bin": {
+		"types-of-step-function": "bin/types-of-step-function.js"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "tsc",
+		"deploy": "cdk deploy --all --require-approval never",
+		"destroy": "cdk destroy --all --force",
+		"lint": "biome check",
+		"lint:fix": "biome check --write",
+		"sendTaskSuccess": "tsx scripts/sendTaskSuccess.ts",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@aws-sdk/client-sfn": "3.864.0",
+		"aws-cdk": "2.1024.0"
+	},
+	"dependencies": {
+		"aws-cdk-lib": "2.210.0",
+		"constructs": "10.4.2"
+	}
+}

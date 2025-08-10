@@ -1,0 +1,21 @@
+{
+	"app": "npx tsx bin/types-of-step-function.ts",
+	"watch": {
+		"include": ["**"],
+		"exclude": [
+			"README.md",
+			"cdk*.json",
+			"**/*.d.ts",
+			"**/*.js",
+			"tsconfig.json",
+			"package*.json",
+			"yarn.lock",
+			"node_modules",
+			"test"
+		]
+	},
+	"outputsFile": "cdk-outputs.json",
+	"context": {
+		"acknowledged-issue-numbers": [34892]
+	}
+}
