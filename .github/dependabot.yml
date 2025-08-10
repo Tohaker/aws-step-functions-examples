@@ -1,0 +1,26 @@
+version: 2
+
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      typescript:
+        patterns:
+          - typescript
+          - tsx
+          - "@types/*"
+          - "@tsconfig/*"
+      aws-cdk:
+        patterns:
+          - aws-cdk
+          - aws-cdk-lib
+          - constructs
+      aws-sdk:
+        patterns:
+          - "@aws-sdk/*"
