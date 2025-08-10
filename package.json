@@ -1,0 +1,22 @@
+{
+	"name": "step-functions-examples",
+	"version": "1.0.0",
+	"description": "Working examples of Step Functions workflows",
+	"license": "MIT",
+	"author": "Miles Bardon",
+	"type": "module",
+	"scripts": {
+		"test": "vitest"
+	},
+	"workspaces": [
+		"services/*"
+	],
+	"devDependencies": {
+		"@biomejs/biome": "2.1.4",
+		"@tsconfig/node22": "22.0.2",
+		"@types/node": "24.2.1",
+		"tsx": "4.20.3",
+		"typescript": "5.9.2",
+		"vitest": "3.2.4"
+	}
+}
