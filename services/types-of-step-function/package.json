@@ -16,10 +16,10 @@
 	},
 	"devDependencies": {
 		"@aws-sdk/client-sfn": "3.1029.0",
-		"aws-cdk": "2.1118.0"
+		"aws-cdk": "2.1118.2"
 	},
 	"dependencies": {
-		"aws-cdk-lib": "2.248.0",
+		"aws-cdk-lib": "2.250.0",
 		"constructs": "10.6.0"
 	}
 }
