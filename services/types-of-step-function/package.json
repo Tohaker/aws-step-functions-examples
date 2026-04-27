@@ -15,7 +15,7 @@
 		"test": "vitest"
 	},
 	"devDependencies": {
-		"@aws-sdk/client-sfn": "3.1032.0",
+		"@aws-sdk/client-sfn": "3.1037.0",
 		"aws-cdk": "2.1118.2"
 	},
 	"dependencies": {
